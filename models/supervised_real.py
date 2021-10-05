@@ -8,7 +8,6 @@ from .optimizers import get_optimizer, get_scheduler
 import torch.optim 
 from tqdm import tqdm
 import torch.cuda.amp as amp
-from .supervised import Model as Supervised
 from sklearn.metrics import f1_score
 
 class SoftTargetCrossEntropy(nn.Module):

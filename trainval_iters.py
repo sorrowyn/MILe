@@ -15,7 +15,6 @@ import datasets
 from torch.utils.data import DataLoader
 import exp_configs
 from torch.utils.data.sampler import RandomSampler
-from test import test
 import glob
 import shutil as sh
 from haven import haven_chk as hc
